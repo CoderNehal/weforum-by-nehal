@@ -4,8 +4,8 @@ const Section2 = () => {
 	return (
 		<div className='container-fluid Section2'>
 			<div className='row margin-5'>
-				<div className='col-12 col-lg-6 col-xl-6  description'>
-					<div className='Section2_Inner d-flex flex-column justify-content-center'>
+				<div className='col-12 col-lg-6 col-xl-6 description d-flex  justify-content-center align-items-center'>
+					<div className='Section2_Inner d-flex  justify-content-center align-items-center'>
 						<p>
 							Taking place in the context of the United Nations General
 							Assembly, the World Economic Forum’s fourth and, for the first

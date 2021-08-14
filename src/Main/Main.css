@@ -4,11 +4,12 @@
 	position: relative;
 	height: 20em;
 	width: 100%;
+	margin-bottom: 4em;
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 32, 41) 100%),
+		url('https://assets.weforum.org/event/background_image/v-y-W0WB3dXxL37REnfaWe3Pn7egBt5QIBnpmJjEmcE.jpg')
+			no-repeat;
 
-	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(27, 32, 41,1) 80%, rgb(27, 32, 41) 100%),
-		url('https://assets.weforum.org/event/background_image/v-y-W0WB3dXxL37REnfaWe3Pn7egBt5QIBnpmJjEmcE.jpg') no-repeat ;
-		
-		background-size: cover;
+	background-size: cover;
 
 	/* background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 32, 41) 100%); */
 }
@@ -40,6 +41,9 @@
 	padding: 0 4rem 4rem 4rem;
 }
 @media (max-width: 768px) {
+	.mainImgContainer{
+		margin-bottom: 1em;
+	}
 	.mainImgContainer .info .mainTitle {
 		font-size: 6vw;
 	}

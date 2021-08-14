@@ -1,0 +1,42 @@
+.Section2 {
+	height: 23em;
+	margin-top: 5vh;
+	margin-bottom: 1em;
+	color: #fff;
+	position: relative;
+}
+.Section2 .Section2_img_container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding-left: 1.4em;
+}
+.Section2 .Section2_img_container img {
+	width: 100%;
+	max-height: 100%;
+}
+.Section2 .description {
+	max-height: 23em;
+}
+.Section2 .description .Section2_Inner {
+	width: 100%;
+	height: 100%;
+	background-color: #272b34;
+	max-height: 23em;
+}
+.Section2 .description .Section2_Inner p {
+	line-height: 1.5rem;
+	font-size: 1.125rem;
+	word-spacing: 3px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 10px 50px;
+}
+@media (max-width: 768px) {
+	.Section2{
+		margin-top: 14em;
+	}
+	.Section2 .description {
+		margin-bottom: 2em;
+	}
+}

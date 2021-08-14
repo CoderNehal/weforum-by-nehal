@@ -1,0 +1,41 @@
+.Section1 {
+	height: 23em;
+	margin-top: 4em;
+
+	margin-bottom: 1em;
+}
+.Section1 .Section1_img_container {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	object-fit: cover;
+}
+.Section1 .Section1_img_container img {
+	max-width: 100%;
+	max-height: 100%;
+}
+.Section1 .description {
+	margin-left: 0.7em;
+}
+
+.Section1 .description p {
+	line-height: 1.5rem;
+	font-size: 1.125rem;
+	
+	color: #cfd2e5;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.Section1 .description button {
+	color: #fff;
+	background-color: #008cf0;
+	text-align: center;
+	padding: 10px 2rem;
+	width: 10em;
+	min-height: 50px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	margin-bottom: 2em;
+	transition: all 0.15s ease-in-out;
+}

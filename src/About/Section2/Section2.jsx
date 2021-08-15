@@ -1,20 +1,13 @@
 import React from 'react';
 import './Section2.css';
-const Section2 = () => {
+const Section2 = ({data}) => {
 	return (
 		<div className='container-fluid Section2'>
 			<div className='row margin-5'>
 				<div className='col-12 col-lg-6 col-xl-6 description d-flex  justify-content-center align-items-center'>
 					<div className='Section2_Inner d-flex  justify-content-center align-items-center'>
 						<p>
-							Taking place in the context of the United Nations General
-							Assembly, the World Economic Forum’s fourth and, for the first
-							time, fully virtual Sustainable Development Impact Summit will
-							convene leaders from government, business, international
-							organizations and civil society along with a diverse group of
-							experts and innovators to initiate, accelerate and scale-up
-							entrepreneurial solutions to tackle climate change and advance
-							sustainable development.
+						{data}
 						</p>
 					</div>
 				</div>

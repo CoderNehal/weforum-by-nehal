@@ -1,7 +1,9 @@
 import About from './About/About';
 import './App.css';
+import JoinSummit from './JoinSummit/JoinSummit';
 import Main from './Main/Main';
 import Navbar from './Navbar/Navbar';
+import Partners from './Partners/Partners';
 
 function App() {
 	return (
@@ -9,7 +11,8 @@ function App() {
 			<Navbar />
 			<Main />
 			<About />
-			
+			<JoinSummit />
+			<Partners />
 		</div>
 	);
 }

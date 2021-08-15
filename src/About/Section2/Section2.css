@@ -1,9 +1,7 @@
 .Section2 {
-	
 	min-height: 23em;
 	/* margin-top: 5em; */
 	color: #fff;
-	
 }
 .Section2 .Section2_img_container {
 	position: relative;
@@ -15,17 +13,11 @@
 	max-width: 100%;
 	max-height: 100%;
 }
-.Section2 .description {
-	max-height: 23em;
 
-}
 .Section2 .description .Section2_Inner {
 	width: 100%;
 	height: 100%;
 	background-color: #272b34;
-	
-	
-
 }
 .Section2 .description .Section2_Inner p {
 	line-height: 1.5rem;
@@ -37,14 +29,12 @@
 	font-weight: 500;
 }
 @media (max-width: 999px) {
-	
 	.Section2 .description {
 		font-size: 2rem;
 		margin-bottom: 1em;
 	}
 	.Section2 .description .Section2_Inner {
 		padding: 0;
-	
 	}
 	.Section2 .description .Section2_Inner p {
 		line-height: 1.4rem;

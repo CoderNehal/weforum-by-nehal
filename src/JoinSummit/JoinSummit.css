@@ -1,0 +1,45 @@
+.JoinSummit {
+	margin-top: 4em;
+	width: 100%;
+	height: 100%;
+	min-height: 18em;
+	background-color: #272b34;
+	margin-bottom: 4em;
+	padding: 3em;
+}
+.JoinSummit .innerCon .heading {
+	width: 100%;
+}
+.JoinSummit .innerCon .heading h1 {
+	font-weight: 600;
+	padding-left: 15px;
+	font-size: 2rem !important;
+}
+
+.JoinSummit .innerCon .row2 strong{
+	border: 1px solid;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.JoinSummit .innerCon .row2 .button button{
+border: none;
+outline: none;
+background-color:#008cf0;
+color: #fff;
+min-height: 50px;
+max-height: 50px;
+text-align: center;
+line-height: 1.125;
+}
+@media (max-width: 768px) {
+	.JoinSummit {
+		padding: 1em 0;
+		padding-left: 1em;
+	}
+	.JoinSummit .innerCon .heading h1 {
+		font-size: 1.25rem !important;
+	}
+	.JoinSummit .innerCon .row2 {
+		display: block;
+	}
+}

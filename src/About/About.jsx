@@ -5,7 +5,7 @@ import Section2 from './Section2/Section2';
 const About = () => {
 	const [AboutObj, setAboutObj] = useState({});
 	useEffect(() => {
-		const sectionData = [];
+		
 		db.collection('Data')
 			.doc('About')
 			.get()
@@ -13,7 +13,7 @@ const About = () => {
 				setAboutObj(snapshot.data());
 			});
 	}, []);
-	console.log(AboutObj);
+	
 	if (Object.keys(AboutObj) != 0) {
 		return (
 			<>

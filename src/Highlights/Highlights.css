@@ -1,6 +1,5 @@
 .Highlights {
 	width: 100%;
-
 	min-height: 27em;
 	margin-bottom: 8em;
 	height: auto;
@@ -15,10 +14,8 @@
 }
 
 .Highlights .container-fluid .row1,
-.row1 .imgcol .card,
 .row1 .imgcol .card {
 	height: 91%;
-	
 }
 .Highlights .container-fluid .row1 .imgcol .card {
 	cursor: pointer;
@@ -72,5 +69,8 @@
 		.footer
 		h2 {
 		font-size: 1.5rem;
+	}
+	.Highlights .container-fluid .row1 .m-e5, .m-5em {
+		margin-top: 5em;
 	}
 }

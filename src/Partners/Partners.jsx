@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import db from '../Firebase/Firebase';
 import './Partners.css';
 const Partners = () => {
+	const [partners, setpartners] = useState({});
+	useEffect(() => {
+		db.collection('Data')
+			.doc('Partners')
+			.get()
+			.then((snapshot) => {
+				setpartners(snapshot.data());
+			});
+	}, []);
+
 	return (
 		<div className='container-fluid d-flex justify-content-center mt-5'>
 			<div className='Partners'>
@@ -8,16 +19,10 @@ const Partners = () => {
 					<div className='card  '>
 						<div className='card-body'>
 							<h5 className='card-title'>Our Partners</h5>
-							<p className='card-text'>
-								World Economic Forum Partners are world-class companies with a
-								strong interest in developing systemic solutions to key
-								challenges
-							</p>
+							<p className='card-text'>{partners.OurPartners}</p>
 						</div>
-						<div className='card-footer ' >
-							
-								<button>Our Partners</button>
-							
+						<div className='card-footer '>
+							<button>Our Partners</button>
 						</div>
 					</div>
 					<div className='card'>
@@ -30,14 +35,7 @@ const Partners = () => {
 								<br /> <br />
 								UpLink
 							</h5>
-							<p className='card-text'>
-								UpLink is a digital platform that crowdsources innovative
-								solutions for the UN Sustainable Development Goals (SDGs).
-								Through its Challenges and Action groups, UpLink seeks to
-								connect the best solutions to networks of industry leaders,
-								experts, and partners, to scale their initiative and accelerate
-								their impact.
-							</p>
+							<p className='card-text'>{partners.UpLink}</p>
 						</div>
 						<div className='card-footer'>
 							<button>Visit UpLink</button>
@@ -46,11 +44,7 @@ const Partners = () => {
 					<div className='card '>
 						<div className='card-body'>
 							<h5 className='card-title'>SDGs</h5>
-							<p className='card-text'>
-								We've built a 3D virtual environment about the Sustainable
-								Development Goals and the champions working to achieve them by
-								2030
-							</p>
+							<p className='card-text'>{partners.SDGs}</p>
 						</div>
 						<div className='card-footer'>
 							<button>Learn More</button>

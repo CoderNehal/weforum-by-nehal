@@ -5,6 +5,7 @@ import JoinSummit from './JoinSummit/JoinSummit';
 import Main from './Main/Main';
 import Navbar from './Navbar/Navbar';
 import Partners from './Partners/Partners';
+import Updates from './Updates/Updates';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<JoinSummit />
 			<Partners />
 			<Highlights />
+			<Updates />
 		</div>
 	);
 }

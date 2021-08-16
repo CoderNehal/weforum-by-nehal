@@ -1,4 +1,3 @@
-
 //TO BE CONTINUED
 
 import React from 'react';
@@ -15,9 +14,33 @@ const JoinSummit = () => {
 						/>
 						<h1>Join the Sustainable Development Impact Summit</h1>
 					</div>
-					<div className=" row2  d-flex justify-content-between  ">
-						<strong className="text-content   d-flex justify-content-start align-items-center">Become a World Economic Forum Digital Member to participate in the summit</strong>
+					{/* <div className=" row2  d-flex justify-content-between  ">
+						<strong className="   d-flex justify-content-start align-items-center">Become a World Economic Forum Digital Member to participate in the summit</strong>
 						<div className="button   d-flex justify-content-end align-items-center"><button>Learn more and start free trial</button></div>
+					</div> */}
+					<div className='row'>
+						<div className='col-12 col-lg-9'>
+							<strong className='text-content d-flex justify-content-start align-items-center'>
+								Become a World Economic Forum Digital Member to participate in
+								the summit
+							</strong>
+						</div>
+
+						<div className='col-12 col-lg-3  button  d-flex justify-content-end align-items-center'>
+							<button>Learn more and start free trial</button>
+						</div>
+					</div>
+					<div className='row '>
+						<div className='alredyPartnerText col-12 col-lg-9 d-flex justify-content-start align-items-center'>
+							<span>
+								Already a Partner of the World Economic Forum? Register for the
+								Summit directly <br /> on TopLink
+							</span>
+						</div>
+						
+						<div className='col-12 col-lg-3  register  d-flex justify-content-end align-items-center' >
+							<button>Register on TopLink</button>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,114 @@
+.HighlightSession-container {
+	background-color: #222833;
+}
+.HighlightSession-container .HighlightSession {
+	padding: 4em 2em;
+	border: 1px solid #fff;
+	min-height: 45em;
+}
+.HighlightSession-container .HighlightSession .title p {
+	font-size: 1.125rem;
+	color: #cfd2e5;
+	line-height: 1.5rem;
+	margin: 0 0 2.5rem 0;
+}
+.HighlightSession-container .HighlightSession .container-fluid .row .section {
+	/* border-top: 1px solid red; */
+	position: relative;
+}
+.HighlightSession-container
+	.HighlightSession
+	.container-fluid
+	.row
+	.grid-title {
+	font-size: 1.375rem;
+	font-weight: 600;
+	padding-bottom: 1rem;
+	padding-top: 1.375rem;
+}
+.HighlightSession-container
+	.HighlightSession
+	.container-fluid
+	.row
+	.session-title {
+	flex: 1;
+	font-size: 1.125rem;
+	font-weight: 600;
+	margin: 0;
+	padding-bottom: 1rem;
+	padding-top: 1.375rem;
+	width: 100%;
+}
+.HighlightSession-container .HighlightSession .container-fluid .row p {
+	color: #cfd2e5;
+	font-size: 0.9375rem;
+	line-height: 1.4;
+}
+.HighlightSession-container
+	.HighlightSession
+	.container-fluid
+	.row
+	.section
+	span {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	font-size: 0.925rem;
+    font-weight: 600;
+}
+.watch{
+	font-size: 0.925rem;
+    font-weight: 600;
+	color: #fff;
+}
+.border-top {
+	border-top: 2px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.HighlightSession-container
+	.HighlightSession
+	.container-fluid
+	.row
+	#hover:hover {
+	cursor: pointer;
+	
+}
+.HighlightSession-container button {
+	color: #fff;
+	background-color: #008cf0;
+	text-align: center;
+	padding: 10px 2rem;
+	width: 12em;
+	min-height: 50px;
+	border-radius: 4px;
+	border: none;
+	outline: none;
+	margin-bottom: 2em;
+	float: right;
+	transition: all 0.15s ease-in-out;
+}
+	.HighlightSession button:hover {
+	background-color: transparent;
+	border: 2px solid #008cf0;
+}
+
+@media (max-width: 992px) {
+	.HighlightSession-container .HighlightSession .container-fluid .row .col-12 {
+		padding: 0 !important;
+	}
+}
+/* <div id='hover' className='col-12 col-lg-8 pl-5'>
+									<div className='border-top d-flex flex-column section'>
+										<h4 className='session-title '>COVID-19 Outlook</h4>
+										<p>
+											Speakers: Hiroko Kuniya, Osagie Ehanire, Lydie Hudson,
+											Anita Zaidi
+										</p>
+										<span className='d-none d-lg-inline'>
+											Watch session &gt;
+										</span>
+										<p className='d-lg-none d-block watch'>
+											Watch session &gt;
+										</p>
+									</div>
+								</div> */

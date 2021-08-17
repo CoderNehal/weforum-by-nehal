@@ -1,6 +1,7 @@
 import About from './About/About';
 import './App.css';
 import Highlights from './Highlights/Highlights';
+import HighlightSession from './HighlightSession/HighlightSession';
 import JoinSummit from './JoinSummit/JoinSummit';
 import Main from './Main/Main';
 import Navbar from './Navbar/Navbar';
@@ -17,6 +18,7 @@ function App() {
 			<Partners />
 			<Highlights />
 			<Updates />
+			<HighlightSession />
 		</div>
 	);
 }

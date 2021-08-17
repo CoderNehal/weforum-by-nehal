@@ -3,8 +3,10 @@
 }
 .HighlightSession-container .HighlightSession {
 	padding: 4em 2em;
-	border: 1px solid #fff;
 	min-height: 45em;
+}
+.HighlightSession-container .HighlightSession .title span {
+	margin-right: 0.3em;
 }
 .HighlightSession-container .HighlightSession .title p {
 	font-size: 1.125rem;
@@ -43,6 +45,7 @@
 	color: #cfd2e5;
 	font-size: 0.9375rem;
 	line-height: 1.4;
+	max-width: 75%;
 }
 .HighlightSession-container
 	.HighlightSession
@@ -54,13 +57,14 @@
 	right: 0;
 	top: 40%;
 	font-size: 0.925rem;
-    font-weight: 600;
+	font-weight: 600;
 }
-.watch{
+.watch {
 	font-size: 0.925rem;
-    font-weight: 600;
+	font-weight: 600;
 	color: #fff;
 }
+.heading-border-top,
 .border-top {
 	border-top: 2px solid rgba(255, 255, 255, 0.2) !important;
 }
@@ -71,9 +75,13 @@
 	.row
 	#hover:hover {
 	cursor: pointer;
-	
 }
-.HighlightSession-container button {
+.HighlightSession-container .update {
+	width: 100%;
+
+	height: 8em;
+}
+.HighlightSession-container .update button {
 	color: #fff;
 	background-color: #008cf0;
 	text-align: center;
@@ -83,11 +91,11 @@
 	border-radius: 4px;
 	border: none;
 	outline: none;
-	margin-bottom: 2em;
-	float: right;
+
+	/* float: right; */
 	transition: all 0.15s ease-in-out;
 }
-	.HighlightSession button:hover {
+.HighlightSession button:hover {
 	background-color: transparent;
 	border: 2px solid #008cf0;
 }
@@ -96,19 +104,17 @@
 	.HighlightSession-container .HighlightSession .container-fluid .row .col-12 {
 		padding: 0 !important;
 	}
+	.HighlightSession-container .HighlightSession .container-fluid .row p {
+		max-width: 100%;
+	}
+	.HighlightSession-container
+		.HighlightSession
+		.container-fluid
+		.row
+		.grid-title {
+		margin-bottom: 1rem;
+	}
+	.heading-border-top {
+		border: none !important;
+	}
 }
-/* <div id='hover' className='col-12 col-lg-8 pl-5'>
-									<div className='border-top d-flex flex-column section'>
-										<h4 className='session-title '>COVID-19 Outlook</h4>
-										<p>
-											Speakers: Hiroko Kuniya, Osagie Ehanire, Lydie Hudson,
-											Anita Zaidi
-										</p>
-										<span className='d-none d-lg-inline'>
-											Watch session &gt;
-										</span>
-										<p className='d-lg-none d-block watch'>
-											Watch session &gt;
-										</p>
-									</div>
-								</div> */

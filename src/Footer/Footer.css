@@ -1,0 +1,7 @@
+.Footer{
+    background-color: #272b34;
+}
+.Footer .lower{
+    flex: 1;
+    width: 100%;
+}

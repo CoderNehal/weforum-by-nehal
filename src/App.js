@@ -1,5 +1,6 @@
 import About from './About/About';
 import './App.css';
+import Footer from './Footer/Footer';
 import Highlights from './Highlights/Highlights';
 import HighlightSession from './HighlightSession/HighlightSession';
 import JoinSummit from './JoinSummit/JoinSummit';
@@ -8,7 +9,7 @@ import Navbar from './Navbar/Navbar';
 import Partners from './Partners/Partners';
 import Updates from './Updates/Updates';
 
-function App() {
+const App = () => {
 	return (
 		<div className='App'>
 			<Navbar />
@@ -19,8 +20,9 @@ function App() {
 			<Highlights />
 			<Updates />
 			<HighlightSession />
+			<Footer />
 		</div>
 	);
-}
+};
 
 export default App;

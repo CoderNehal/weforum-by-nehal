@@ -14,7 +14,7 @@ const About = () => {
 			});
 	}, []);
 	
-	if (Object.keys(AboutObj) != 0) {
+	if (Object.keys(AboutObj) !== 0) {
 		return (
 			<>
 				<Section1 data={AboutObj.section1} />

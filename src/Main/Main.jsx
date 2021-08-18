@@ -24,11 +24,7 @@ const Main = () => {
 				</div>
 			</div>
 
-			{/* <img
-        src='https://assets.weforum.org/event/background_image/v-y-W0WB3dXxL37REnfaWe3Pn7egBt5QIBnpmJjEmcE.jpg'
-        alt=''
-        className='mainImg'
-    /> */}
+			
 		</div>
 	);
 };

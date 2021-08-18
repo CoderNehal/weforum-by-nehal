@@ -9,25 +9,26 @@ const Updates = () => {
 				</div>
 				<ul>
 					<li>
-						<a href='#'>
+						<a href='https://iarani.com/'>
 							ConsenSys: Revolutionizing clinical trial based research
 						</a>
 						<small>today</small>
 					</li>
 					<li>
-						<a href='#'>
-                        Islamic Development Bank's call for innovation to save women's lives from cancer
+						<a href='https://iarani.com/'>
+							Islamic Development Bank's call for innovation to save women's
+							lives from cancer
 						</a>
 						<small>today</small>
 					</li>
 					<li>
-						<a href='#'>
-                        Biogen's Alzheimer's drug gets FDA approval
+						<a href='https://iarani.com/'>
+							Biogen's Alzheimer's drug gets FDA approval
 						</a>
 						<small>today</small>
 					</li>
 				</ul>
-                <button>See all updates</button>
+				<button>See all updates</button>
 			</div>
 		</div>
 	);

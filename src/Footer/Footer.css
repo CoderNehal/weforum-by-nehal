@@ -1,7 +1,162 @@
-.Footer{
-    background-color: #272b34;
+.footer-container {
+	border: 1px solid transparent;
+	position: relative;
+	min-height: 27em;
 }
-.Footer .lower{
-    flex: 1;
-    width: 100%;
+
+.Footer {
+	background: #1b2029;
+	
+}
+
+.Footer .upper {
+	position: absolute;
+	top: 0;
+	left: 20%;
+	min-height: 7em;
+	width: 75%;
+	
+	background: #32363e;
+}
+.Footer .upper .logo {
+	height: auto;
+	max-height: 6em;
+	color: #fff;
+	padding: 1em;
+}
+.Footer .upper p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+.Footer .upper p small {
+	color: #ffffff;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+.Footer .upper .searchBar input {
+	transition: all 0.2s;
+	background: #ffffff;
+	font-size: 16px;
+	padding-left: 1rem;
+	padding-right: 2.5rem;
+	height: 2.5rem;
+	border-radius: 0.375rem 0 0 0.375rem;
+	border: 0px;
+}
+.Footer .upper .searchBar .arrow {
+	background: rgb(0, 116, 199);
+	font-size: 1.5rem;
+	height: 2.5rem;
+	padding: 0.3rem 0.7rem;
+	cursor: pointer;
+
+	border-radius: 0 0.375rem 0.375rem 0;
+}
+
+.Footer .lower {
+	background: #32363e;
+
+	min-height: 35em;
+	margin-top: 4em;
+	padding: 9em 0;
+	padding-bottom: 1em;
+
+	width: 100%;
+}
+.Footer .lower .section1,
+.section3,
+.part-1,
+.part-2 {
+	position: relative;
+	border-top: 1px solid #fff;
+}
+.Footer .lower .section1::before,
+.section3::before {
+	position: absolute;
+	content: '';
+	border-top: 3px solid #fff;
+	width: 5em;
+	height: 1em;
+}
+
+.Footer .lower .section2 {
+	min-height: 15em;
+}
+
+.Footer .lower .section2 .part-1,
+.part-2 {
+	width: 47%;
+}
+.Footer .lower .section2 .part-1::before,
+.part-2::before {
+	position: absolute;
+	content: '';
+	border-top: 3px solid #fff;
+	width: 5em;
+	height: 1em;
+}
+.Footer .lower .section3 {
+	
+}
+.Footer .lower .section3 .col .d-flex .social-icons {
+	height: 7.5rem;
+	
+}
+.Footer .lower .section3 .col .d-flex .global{
+	width: 100%;
+}
+.Footer .lower .section3 .col .d-flex img {
+	height: 2.5rem;
+}
+.Footer .lower .section .title {
+	margin: 10px 0;
+	margin-left: -0.5rem;
+	font-weight: 600;
+	line-height: 1.25;
+	transition: all 200ms ease-in-out 0s;
+	color: #fff;
+}
+.Footer .lower .section .title h5 {
+	font-size: 16px;
+}
+.Footer .lower .section a, .endDiv p, .endDiv a{
+	color: #29a6ff;
+	display: block;
+	margin: 10px 0;
+	font-size: 14px;
+	text-decoration: none;
+	outline: none;
+	font-weight: normal;
+	transition: all 0.2s ease-in-out;
+}
+.Footer .lower .section a:hover {
+	color: #fff;
+}
+
+.endDiv{
+	margin: 10px 20px;
+	padding-bottom: 0;
+	border-top: 1px solid rgba(0,116,199,0.3);
+}
+@media (max-width: 992px) {
+	.Footer .upper {
+		left: 0;
+		right: 0;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		height: 17em;
+	}
+	.Footer .upper .searchBar input {
+		width: 100%; /*look here*/
+	}
+	.Footer .lower {
+		padding-top: 15em;
+	}
+	.Footer .lower .section2 .part-1,
+	.part-2 {
+		width: 100%;
+	}
 }

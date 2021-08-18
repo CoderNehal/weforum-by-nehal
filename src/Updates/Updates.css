@@ -27,7 +27,7 @@
 	text-decoration: none;
 }
 
-ul li:before {
+.Updates ul li:before {
 	content: '•';
 	font-size: 170%; /* or whatever */
 }

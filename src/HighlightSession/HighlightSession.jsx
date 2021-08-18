@@ -4,7 +4,7 @@ import { IoStarSharp } from 'react-icons/io5';
 import dateFormat from 'dateformat';
 import db from '../Firebase/Firebase';
 const date = new Date('September 22 ,2020');
-// console.log( dateFormat(date, 'fullDate').toString());
+
 const HighlightSession = () => {
 	const [events, setevents] = useState([]);
 	useEffect(() => {
@@ -15,7 +15,7 @@ const HighlightSession = () => {
 				const data = snapshot.data();
 
 				const sortedData = Object.values(sortObj(data));
-				//console.log(sortedData)
+			
 				setevents(sortedData);
 			});
 	}, []);
@@ -27,10 +27,10 @@ const HighlightSession = () => {
 				return result;
 			}, {});
 	}
-	console.log(events);
+	
 	return (
 		<div className='HighlightSession-container container-fluid'>
-			<div className='HighlightSession margin-5'>
+			<div className='HighlightSession margin-5 px-0'>
 				<div className='title'>
 					<h2>
 						<span>
@@ -44,12 +44,12 @@ const HighlightSession = () => {
 				</div>
 				<div className='container-fluid'>
 					
-					{events.map((element) => {
+					{events.map((element,id) => {
 						const date = element.date;
 						const sessions = element.sessions;
-						console.log();
+					
 						return (
-							<div className='row'>
+							<div className='row' key={id}>
 								<div className='col-12 grid-title col-lg-4 heading-border-top'>
 									{dateFormat(
 										date.toDate().toDateString(),
@@ -57,10 +57,10 @@ const HighlightSession = () => {
 									)}
 								</div>
 
-								<div className='col-12 col-lg-8 pl-5 hover'>
-									{sessions.map((session) => {
+								<div className='col-12 col-lg-8 pl-5 hover '>
+									{sessions.map((session,id) => {
 										return (
-											<div className='border-top d-flex flex-column section'>
+											<div className='border-top d-flex flex-column section ' key={id}>
 												<h4 className='session-title '>{session.title}</h4>
 												<p>{session.description}</p>
 												<span className='d-none d-lg-inline'>

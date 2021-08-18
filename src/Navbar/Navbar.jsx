@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
-// import logo from '../images/logo.svg';
-// import hamburger from '../images/hamburger.svg';
+
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { BiSearch } from 'react-icons/bi';
 import { ImCross } from 'react-icons/im';
@@ -32,7 +31,10 @@ const Navbar = () => {
 
 							{upperNavOptions.map((item, idx) => {
 								return (
-									<a key={idx} className='d-none d-xl-inline' href='#'>
+									<a
+										key={idx}
+										className='d-none d-xl-inline'
+										href='https://iarani.com/'>
 										{item}
 									</a>
 								);
@@ -83,10 +85,10 @@ const Navbar = () => {
 					{lowerNavOptions.map((item, idx) => {
 						return (
 							<a
-								href='#'
-								id={idx}
+								href='https://iarani.com/'
+								
 								onClick={() => setselected(idx.toString())}
-								className={selected == `${idx}` ? 'active' : null}
+								className={selected === `${idx}` ? 'active' : null}
 								key={idx}>
 								{item}
 							</a>
@@ -94,7 +96,7 @@ const Navbar = () => {
 					})}
 				</div>
 				<div className='social d-flex justify-content-between align-items-center'>
-					<a href='#' id='hashtag'>
+					<a href='https://iarani.com/' id='hashtag'>
 						#SDI20
 					</a>
 

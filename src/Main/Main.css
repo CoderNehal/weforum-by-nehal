@@ -1,55 +1,44 @@
 .mainImgContainer {
-	color: #fff;
-
-	position: relative;
-	height: 20em;
-	width: 100%;
-	margin-bottom: 4em;
-	background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 32, 41) 100%),
-		url('https://assets.weforum.org/event/background_image/v-y-W0WB3dXxL37REnfaWe3Pn7egBt5QIBnpmJjEmcE.jpg')
+	background: linear-gradient(rgba(0, 0, 0, 0) 0%, #1b2029 100%),
+		url(https://assets.weforum.org/event/background_image/v-y-W0WB3dXxL37REnfaWe3Pn7egBt5QIBnpmJjEmcE.jpg)
 			no-repeat;
-
 	background-size: cover;
-
-	/* background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(27, 32, 41) 100%); */
-}
-
-.mainImgContainer .info {
+	color: #fff;
+	height: 20em;
+	margin-bottom: 4em;
+	position: relative;
 	width: 100%;
-	margin: 0 5vw;
-	/* border: 1px solid blue; */
-	height: 100%;
-
-	background: transparent;
 }
-.mainImgContainer .info .mainTitle {
-	font-size: 3.3vw;
-
-	font-weight: 600;
-	/* margin: 0 2rem 1rem 2rem; */
-	/* margin-bottom: 1em;  */
-	text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+.mainImgContainer .info {
+	background: transparent;
+	height: 100%;
+	margin: 0 5vw;
+	width: 100%;
 }
 .mainImgContainer .info .dates {
 	height: 5em;
 	margin-top: 1em;
 }
-
+.mainImgContainer .info .mainTitle {
+	font-size: 3.3vw;
+	font-weight: 600;
+	text-shadow: 0 1px 2px #000;
+}
 .mainImgContainer .info .tagLine {
 	font-size: 1.25rem;
 	font-weight: 600;
-	padding: 0 4rem 4rem 4rem;
+	padding: 0 4rem 4rem;
 }
 @media (max-width: 768px) {
-	.mainImgContainer{
+	.mainImgContainer {
 		margin-bottom: 1em;
 	}
 	.mainImgContainer .info .mainTitle {
 		font-size: 6vw;
 	}
 	.mainImgContainer .info .tagLine {
+		font-weight: 550;
 		margin-top: -1em;
 		padding: 0 0 0 1em;
-		font-weight: 550;
 	}
 }

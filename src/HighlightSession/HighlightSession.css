@@ -15,7 +15,7 @@
 	margin: 0 0 2.5rem 0;
 }
 .HighlightSession-container .HighlightSession .container-fluid .row .section {
-	/* border-top: 1px solid red; */
+
 	position: relative;
 }
 .HighlightSession-container
@@ -92,7 +92,7 @@
 	border: none;
 	outline: none;
 
-	/* float: right; */
+
 	transition: all 0.15s ease-in-out;
 }
 .HighlightSession button:hover {

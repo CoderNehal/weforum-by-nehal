@@ -15,7 +15,7 @@ const HighlightSession = () => {
 				const data = snapshot.data();
 
 				const sortedData = Object.values(sortObj(data));
-			
+
 				setevents(sortedData);
 			});
 	}, []);
@@ -27,7 +27,7 @@ const HighlightSession = () => {
 				return result;
 			}, {});
 	}
-	
+
 	return (
 		<div className='HighlightSession-container container-fluid'>
 			<div className='HighlightSession margin-5 px-0'>
@@ -43,11 +43,10 @@ const HighlightSession = () => {
 					</p>
 				</div>
 				<div className='container-fluid'>
-					
-					{events.map((element,id) => {
+					{events.map((element, id) => {
 						const date = element.date;
 						const sessions = element.sessions;
-					
+
 						return (
 							<div className='row' key={id}>
 								<div className='col-12 grid-title col-lg-4 heading-border-top'>
@@ -58,9 +57,11 @@ const HighlightSession = () => {
 								</div>
 
 								<div className='col-12 col-lg-8 pl-5 hover '>
-									{sessions.map((session,id) => {
+									{sessions.map((session, id) => {
 										return (
-											<div className='border-top d-flex flex-column section ' key={id}>
+											<div
+												className='border-top d-flex flex-column section '
+												key={id}>
 												<h4 className='session-title '>{session.title}</h4>
 												<p>{session.description}</p>
 												<span className='d-none d-lg-inline'>
@@ -78,7 +79,6 @@ const HighlightSession = () => {
 					})}
 				</div>
 				<div className='update d-flex justify-content-end align-items-center'>
-					
 					<button>See all updates</button>
 				</div>
 			</div>

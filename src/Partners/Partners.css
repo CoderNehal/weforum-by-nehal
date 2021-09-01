@@ -10,7 +10,6 @@
 	border-radius: 0 !important;
 	padding: 1em;
 	background-color: #272b34;
-
 }
 .Partners .card-deck .card .card-body .card-title {
 	font-size: 1.25rem;
@@ -42,16 +41,14 @@
 	background-color: #008cf0;
 }
 @media (max-width: 768px) {
-	.Partners{
-		padding-left:0 ;
-		padding-right:0 ;
-
+	.Partners {
+		padding-left: 0;
+		padding-right: 0;
 	}
 	.Partners .card-deck {
 		padding: 0 !important;
 	}
-	.Partners .card-deck .card .card-footer button{
+	.Partners .card-deck .card .card-footer button {
 		width: 100%;
 	}
-	
 }

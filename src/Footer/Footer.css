@@ -6,7 +6,6 @@
 
 .Footer {
 	background: #1b2029;
-	
 }
 
 .Footer .upper {
@@ -15,7 +14,7 @@
 	left: 20%;
 	min-height: 7em;
 	width: 75%;
-	
+
 	background: #32363e;
 }
 .Footer .upper .logo {
@@ -98,13 +97,11 @@
 	height: 1em;
 }
 .Footer .lower .section3 {
-	
 }
 .Footer .lower .section3 .col .d-flex .social-icons {
 	height: 7.5rem;
-	
 }
-.Footer .lower .section3 .col .d-flex .global{
+.Footer .lower .section3 .col .d-flex .global {
 	width: 100%;
 }
 .Footer .lower .section3 .col .d-flex img {
@@ -121,7 +118,9 @@
 .Footer .lower .section .title h5 {
 	font-size: 16px;
 }
-.Footer .lower .section a, .endDiv p, .endDiv a{
+.Footer .lower .section a,
+.endDiv p,
+.endDiv a {
 	color: #29a6ff;
 	display: block;
 	margin: 10px 0;
@@ -135,10 +134,10 @@
 	color: #fff;
 }
 
-.endDiv{
+.endDiv {
 	margin: 10px 20px;
 	padding-bottom: 0;
-	border-top: 1px solid rgba(0,116,199,0.3);
+	border-top: 1px solid rgba(0, 116, 199, 0.3);
 }
 @media (max-width: 992px) {
 	.Footer .upper {

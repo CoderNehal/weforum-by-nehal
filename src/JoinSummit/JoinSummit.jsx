@@ -14,7 +14,7 @@ const JoinSummit = () => {
 						/>
 						<h1>Join the Sustainable Development Impact Summit</h1>
 					</div>
-				
+
 					<div className='row'>
 						<div className='col-12 col-lg-9'>
 							<strong className='text-content d-flex justify-content-start align-items-center'>
@@ -34,8 +34,8 @@ const JoinSummit = () => {
 								Summit directly <br /> on TopLink
 							</span>
 						</div>
-						
-						<div className='col-12 col-lg-3  register  d-flex justify-content-end align-items-center' >
+
+						<div className='col-12 col-lg-3  register  d-flex justify-content-end align-items-center'>
 							<button>Register on TopLink</button>
 						</div>
 					</div>

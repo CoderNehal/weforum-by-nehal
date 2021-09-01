@@ -17,14 +17,10 @@ const Main = () => {
 						<h1 className='mainTitle'>Sustainable Development Impact Summit</h1>
 					</div>
 				</div>
-				<div
-					className='col-12 col-xl-6 col-lg-6 tagLine d-flex flex-column justify-content-start justify-content-lg-end justify-content-xl-end'
-					>
+				<div className='col-12 col-xl-6 col-lg-6 tagLine d-flex flex-column justify-content-start justify-content-lg-end justify-content-xl-end'>
 					Realizing a 'Great Reset' for Sustainable Development
 				</div>
 			</div>
-
-			
 		</div>
 	);
 };

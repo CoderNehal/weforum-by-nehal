@@ -38,7 +38,6 @@
 		rgba(0, 0, 0, 0) 50%,
 		rgba(27, 32, 41, 0.8) 100%
 	);
-	
 }
 .Highlights .container-fluid .row1 .imgcol .card .card-img-overlay .footer {
 	width: 100%;
@@ -57,7 +56,6 @@
 	margin-bottom: 0;
 }
 
-
 @media (max-width: 768px) {
 	.Highlights .container-fluid .row1 .imgcol .card .card-img-overlay .footer {
 		padding: 0 1rem;
@@ -72,7 +70,8 @@
 		h2 {
 		font-size: 1.5rem;
 	}
-	.Highlights .container-fluid .row1 .m-e5, .m-5em {
+	.Highlights .container-fluid .row1 .m-e5,
+	.m-5em {
 		margin-top: 5em;
 	}
 }

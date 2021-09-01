@@ -86,7 +86,6 @@ const Navbar = () => {
 						return (
 							<a
 								href='https://iarani.com/'
-								
 								onClick={() => setselected(idx.toString())}
 								className={selected === `${idx}` ? 'active' : null}
 								key={idx}>

@@ -58,7 +58,7 @@ const Highlights = () => {
 							<Highlightcol4 data={highlights.h19} />
 							<Highlightcol4 data={highlights.h20} />
 							{/* blank div */}
-							<div className='col-sm-4 imgcol'></div> 
+							<div className='col-sm-4 imgcol'></div>
 						</div>
 					</div>
 				</div>

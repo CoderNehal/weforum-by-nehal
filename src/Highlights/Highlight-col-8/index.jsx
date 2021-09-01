@@ -1,6 +1,5 @@
 import React from 'react';
 const Highlightcol8 = ({ data }) => {
-
 	return (
 		<div className='col-sm-8 imgcol'>
 			<div className='card'>

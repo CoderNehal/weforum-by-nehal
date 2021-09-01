@@ -1,20 +1,20 @@
 .App {
-  padding: 0;
-  margin: 0;
-  background-color: rgb(27, 32, 41);
-  color: #fff;
+	padding: 0;
+	margin: 0;
+	background-color: rgb(27, 32, 41);
+	color: #fff;
 }
-.margin-5{
-  margin: 0 5vw;
+.margin-5 {
+	margin: 0 5vw;
 }
-.Jcc{
-  justify-content: center;
+.Jcc {
+	justify-content: center;
 }
-.AIC{
-  align-items: center;
+.AIC {
+	align-items: center;
 }
-@media(max-width:768px){
-  .margin-5{
-    margin: 0;
-  }
+@media (max-width: 768px) {
+	.margin-5 {
+		margin: 0;
+	}
 }

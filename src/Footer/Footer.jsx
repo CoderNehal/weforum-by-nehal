@@ -71,10 +71,10 @@ const Footer = () => {
 					</div>
 					<div className=' col-12 col-md-6 col-lg-3'>
 						<div className='row mt-2 mx-1 section  section3'>
-							<div className='col'>
+							<div className='col '>
 								<div className='title'>
 									<h5>Follow the World Economic Forum</h5>
-									<div className='d-flex flex-column justify-content-between'>
+									<div className='d-flex flex-column justify-content-between '>
 										<div className='d-flex justify-content-start justify-content-lg-around social-icons'>
 											<img src='https://img.icons8.com/color/48/4a90e2/facebook.png' />
 											<img src='https://img.icons8.com/color/48/4a90e2/twitter.png' />
@@ -85,7 +85,7 @@ const Footer = () => {
 											<img src='https://img.icons8.com/ios/50/4a90e2/instagram-new.png' />
 										</div>
 
-										<div className='part-2 global'>
+										<div className='part-2 global '>
 											<div className='title pl-3'>
 												<h5>Global sites</h5>
 												<a href='https://iarani.com/'>
